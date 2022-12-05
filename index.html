@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Edwin Solis">
+    <meta name="description" content="Primer tarea Modulo 4">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Primer Pagina</title>
+    <!--Agregamos Bootstrap con CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!--propio CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <!--Inicio navbar-->
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+                <!--boton hamburguesa-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--boton hamburguesa-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/aplicaciones.svg" width="40" alt="Logo aplicaciones">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#biografia">Biografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#discografia">Discografia</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#miembros">Miembros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Fin navbar-->
+    </header>
+
+    <main>
+        <!-- Seccion Hero -->
+        <section class="hero">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen-queen rounded-circle" src="./img/queen2.jpg" alt="Fotografia Queen">
+                <h1>Queen</h1>
+                <h2>Grupo musical de Rock</h2>
+            </div>
+            <div>
+                <img class="hero-inferior-imagen img-fluid" src="./img/queen3.jpg" alt="queen">
+            </div>
+        </section>
+        <!-- Fin Seccion Hero -->
+
+        <!--Biografia-->
+        <section class="sobre-queen seccion-oscura" id="biografia">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Biografia Queen</h2>
+                <p class="seccion-texto">
+                    Queen es una banda británica de rock formada en 1970 en Londres, integrada por el cantante y
+                    pianista Freddie Mercury, el guitarrista Brian May y el baterista Roger Taylor. El bajista John
+                    Deacon llegaría un año después al grupo para completar la formación clásica. Sus primeros trabajos
+                    estuvieron influenciados por el rock progresivo, el hard rock y el heavy metal, pero la banda se
+                    aventuró gradualmente en trabajos más convencionales y amigables con la radio incorporando más
+                    estilos, como arena rock y pop rock.
+
+                    Antes de formar Queen, May y Taylor habían tocado juntos en la banda Smile. Mercury se apego a la
+                    banda y los animó a experimentar con técnicas escénicas y de grabación más elaboradas. Se unió en
+                    1970 y sugirió el nombre de «Queen». Deacon fue reclutado en febrero de 1971, antes de que la banda
+                    lanzara su álbum debut homónimo en 1973. Queen apareció por primera vez en las listas de éxitos del
+                    Reino Unido con su segundo álbum, Queen II, en 1974. Sheer Heart Attack más tarde ese año y A Night
+                    at the Opera en 1975 trajeron ellos el éxito internacional. Este último presentó «Bohemian
+                    Rhapsody», que se mantuvo en el número uno en el Reino Unido durante nueve semanas y ayudó a
+                    popularizar el formato de video musical.
+
+                    El álbum de 1977 de la banda, News of the World, contenía «We Will Rock You» y «We Are the
+                    Champions», que se han convertido en himnos en los eventos deportivos. A principios de la década de
+                    1980, Queen era una de las bandas de arena rock más importantes del mundo. «Another One Bites the
+                    Dust» de The Game (1980) se convirtió en su sencillo más vendido, mientras que su álbum
+                    recopilatorio de 1981 Greatest Hits es uno de los álbum más vendido a nivel mundial con más de 50
+                    millones de copias y en el Reino Unido es el álbum más vendido con más de 7 millones de copias y
+                    está certificado nueve veces platino en los EE. UU. Su actuación en el concierto Live Aid de 1985
+                    está clasificada entre las mejores de la historia del rock por varias publicaciones. En agosto de
+                    1986, Mercury dio su última actuación con Queen en Knebworth, Inglaterra. En 1991 murió de
+                    bronconeumonía, una complicación del sida. Deacon se retiró en 1997. Desde 2004, May y Taylor han
+                    realizado giras como «Queen +», con los vocalistas Paul Rodgers y Adam Lambert.
+
+                    Queen ha tenido una presencia global en la cultura popular durante más de cinco décadas. Las
+                    estimaciones de sus ventas de discos oscilan entre 250 y 300 millones, lo que los convierte en uno
+                    de los artistas musicales con más ventas del mundo. En 1990, Queen recibió el Brit Award por su
+                    destacada contribución a la música británica. Fueron incluidos en el Salón de la Fama del Rock and
+                    Roll en 2001, y como cada miembro había compuesto sencillos exitosos, los cuatro fueron incluidos en
+                    el Salón de la Fama de los Compositores en 2003. En 2005 recibieron el Premio Ivor Novello a la
+                    Colección de Canciones Destacadas de la British Academy of Songwriters, Composers and Authors, y en
+                    2018 recibieron el premio Grammy Lifetime Achievement Award.
+                </p>
+            </div>
+        </section>
+        <!--Fin Biografia-->
+
+        <!-- Seccion discografia -->
+        <section class="proyectos-recientes seccion-clara" id="discografia">
+            <h2 class="seccion-titulo texto-negro">Discografia de Queen</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="accordion col-6" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#elemento1" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Queen
+                                </button>
+                            </h2>
+                            <div id="elemento1" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <p>
+                                        <strong>Queen</strong> es el álbum debut de estudio de la banda británica Queen.
+                                        Publicado el 13
+                                        de julio de 1973 por EMI Records en el Reino Unido y por Elektra Records en los
+                                        Estados Unidos, fue grabado en los estudios Trident y en los estudios De Lane
+                                        Lea en Londres, coproducido por Roy Thomas Baker, John Anthony y los miembros de
+                                        la banda.
+
+                                        El álbum fue influenciado por el heavy metal y el rock progresivo. Las letras
+                                        están basadas en una variedad de temas, incluyendo el folclore —«My Fairy King»—
+                                        y la religión —«Jesus»—. El vocalista principal Freddie Mercury escribió 5 de
+                                        las 10 canciones, el guitarrista principal Brian May escribió 4 (incluyendo
+                                        «Doing All Right», la cual fue compuesta junto con Tim Staffell, vocalista de
+                                        Smile), y el baterista Roger Taylor escribió y canto «Modern Times Rock 'n'
+                                        Roll». La canción de cierre del álbum versión instrumental corta de «Seven Seas
+                                        of Rhye», la versión definitiva apareció en su segundo álbum de estudio, Queen
+                                        II.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#elemento2" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Queen II
+                                </button>
+                            </h2>
+                            <div id="elemento2" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <p>
+                                        <strong>Queen II</strong> es el segundo álbum de estudio por la banda británica
+                                        Queen. Fue
+                                        publicado el 8 de marzo de 1974 por EMI Records en el Reino Unido y por Elektra
+                                        Records en los Estados Unidos. Fue grabado en los estudios Trident, Londres en
+                                        agosto de 1973, coproducido por Roy Thomas Baker y Robin Geoffrey Cable.
+
+                                        Originalmente producido en formato de Long Play en vinilo, se lanzó por primera
+                                        vez en 1974. La terminación del álbum coincidió con la crisis del petróleo de
+                                        1973 y por lo tanto, las medidas de ahorro de energía influyeron en el retraso
+                                        del lanzamiento del disco por varios meses debido a que la industria del
+                                        plástico depende en gran parte de derivados del petróleo.
+
+                                        Se grabó en los Trident Studios, en Londres en agosto de 1973, y fue dirigido
+                                        por Mike Stone. La canción más larga del álbum es The March of the Black Queen y
+                                        las más corta es Procession.
+
+                                        El título de la obra denota con números romanos su posterioridad al primer álbum
+                                        del grupo de título homónimo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#elemento3" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Sheer Heart Attack
+                                </button>
+                            </h2>
+                            <div id="elemento3" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <p>
+                                        <strong>Sheer Heart Attack</strong> (en español, Certero ataque al corazón) es
+                                        el tercer álbum de
+                                        la banda británica de rock Queen, publicado el 8 de noviembre de 1974 por EMI.
+                                        Fue grabado en los estudios Trident, Wessex, Rockfield y Air (Reino Unido) entre
+                                        julio y septiembre de ese mismo año y producido por Roy Thomas Baker y Queen.
+                                        Llegó al número dos de la lista de discos más vendidos en el Reino Unido y al
+                                        número doce en Estados Unidos.
+
+                                        El álbum fue editado después de su segunda obra musical Queen II, con la cual se
+                                        consagraron como banda en Reino Unido, pero no fue hasta Sheer Heart Attack
+                                        donde se convirtieron en banda de renombre internacionalmente. Con los sencillos
+                                        "Killer Queen" y "Now I'm Here" la banda consiguió el éxito fuera del Reino
+                                        Unido. El sencillo "Killer Queen" alcanzó el puesto n.º 12 en las listas
+                                        estadounidenses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion col-6" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    A Night at the Opera
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <strong>A Night at the Opera</strong> (en español: Una noche en la Ópera) es el
+                                    cuarto álbum de estudio de la banda británica de rock Queen, publicado en noviembre
+                                    de 1975. Coproducido por Roy Thomas Baker y Queen —y considerado el más caro
+                                    realizado hasta esa fecha, contiene varias de las canciones más famosas de la
+                                    banda como "Bohemian Rhapsody", "You're My Best Friend" o "Love of My Life".
+
+                                    El álbum toma el nombre de la película Una noche en la ópera de los hermanos Marx,
+                                    que la banda vio una noche en el complejo de estudios durante la grabación. El
+                                    álbum es famoso por tener los éxitos Bohemian Rhapsody y You're My Best Friend,
+                                    además de canciones conocidas del grupo como Love of My Life, Death on Two Legs, The
+                                    Prophet's Song, I'm in Love with My Car y la versión de May y Taylor del himno
+                                    británico.
+
+                                    En el momento de su lanzamiento la crítica recibió al álbum con división de
+                                    opiniones, aunque se alabaron su producción y la diversidad de sus temas,
+                                    reconociéndolo como el álbum que elevó a Queen a la categoría de superestrellas. En
+                                    1977 recibió dos nominaciones a los Grammy en las categorías de mejor interpretación
+                                    vocal por un dúo o grupo y mejor arreglo vocal.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    A Day at the Races
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <strong>A Day at the Races</strong> en español: Un día en las carreras— es el quinto
+                                    álbum de la banda británica de rock Queen, que fue lanzado el 10 de diciembre de
+                                    1976. Fue el primer álbum producido solo por la banda, después de coproducir sus
+                                    primeros cuatro álbumes junto a Roy Thomas Baker (Queen, Queen II, Sheer Heart
+                                    Attack y A Night at the Opera) y John Anthony (Queen).
+
+                                    El álbum fue grabado en los Estudios Sarm West, The Manor and Wessex en Inglaterra y
+                                    con el ingeniero Mike Stone. El título del álbum es una referencia directa al
+                                    anterior, A Night at the Opera. Ambos álbumes están titulados como películas de los
+                                    hermanos Marx.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-dark text-light link" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    News of the World
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-secondary text-white link">
+                                    <strong>News of the World</strong> en español: Noticias del mundo— es el sexto álbum
+                                    de estudio de la banda británica de rock Queen, lanzado el 28 de octubre de 1977. El
+                                    título del álbum hace referencia al periódico británico News of the World.
+
+                                    Contiene canciones tan exitosas como We Will Rock You, We Are the Champions
+                                    -ambas comúnmente usadas en eventos deportivos- y Spread Your Wings, el álbum
+                                    consiguió cuatro discos de platino en los Estados Unidos, y junto con el álbum de
+                                    1980 The Game ostentan el título de ser el disco más vendido de Queen en Estados
+                                    Unidos.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://es.wikipedia.org/wiki/Queen#Discograf%C3%ADa" target="_blank">
+                <button type="button" class="btn btn-info">Ver más discos
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </a>
+        </section>
+        <!-- Fin Seccion discografia -->
+
+        <!--seccion integrantes-->
+        <section>
+            <table class="table table-bordered table-primary">
+                <thead class="table-dark">
+                    <h2>Grupo Queen</h2>
+                    <tr>
+                        <th>Integrante</th>
+                        <th>Instrumento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Freddie Mercury</td>
+                        <td>Cantante y Pianista</td>
+                    </tr>
+                    <tr>
+                        <td>Brian May</td>
+                        <td>Guitarrista</td>
+                    </tr>
+                    <tr>
+                        <td>Roger Taylor</td>
+                        <td>Baterista</td>
+                    </tr>
+                    <tr>
+                        <td>John Deacon</td>
+                        <td>Bajista</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--fin seccion integrantes-->
+
+        <!--carrusel con integrantes-->
+        <section class="miembros seccion-clara" id="miembros">
+            <h2 class="seccion-titulo">Integrantes</h2>
+            <h3 class="seccion-descripcion">Descripción de Integrantes de Grupo Queen</h3>
+
+            <!-- area carrusel -->
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+
+                    <!-- Integrante 1 -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img class="miembro-imagen" src="./img/fredy.jpg" alt="Imagen fredy">
+                            <p class="miembro-texto">Freddie Mercury (nacido como Farrokh Bulsara; Stone Town, 5
+                                de septiembre de 1946-Kensington, Londres, 24 de noviembre de 1991) fue un cantante y
+                                compositor británico, que alcanzó fama mundial por ser el vocalista principal (y
+                                pianista) de la banda de rock, Queen.</p>
+                            <div class="miembro-info">
+                                <p class="integrante">Freddie Mercury</p>
+                                <p class="cargo">Cantante y Pianista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Integrante 1 -->
+
+                    <!-- Integrante 2 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="miembro-imagen" src="./img/brian-may.jpeg" alt="Imagen brian-may">
+                            <p class="miembro-texto">Brian Harold May (Londres, Inglaterra 19 de julio de 1947) es un
+                                músico, compositor, cantante, multiinstrumentista, activista y astrofísico británico. Es
+                                conocido por ser guitarrista, compositor, vocalista y en ocasiones teclista de la banda
+                                británica Queen.</p>
+                            <div class="miembro-info">
+                                <p class="integrante">Brian May</p>
+                                <p class="cargo">Guitarrista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Interprete 2 -->
+
+                    <!-- Interprete 3 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="miembro-imagen" src="./img/roger-taylor.jpeg" alt="Imagen roger-taylor">
+                            <p class="miembro-texto">Roger Meddows Taylor (King's Lynn, Norfolk, Inglaterra; 26 de julio
+                                de 1949), más conocido como Roger Taylor, es un músico, compositor, multiinstrumentista
+                                y productor cinematográfico británico.</p>
+                            <div class="miembro-info">
+                                <p class="integrante">Roger Taylor</p>
+                                <p class="cargo">Baterista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Interprete 3 -->
+
+                    <!-- Interprete 4 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="miembro-imagen" src="./img/john-deacon.jpeg" alt="Imagen john-deacon">
+                            <p class="miembro-texto">John Richard Deacon (Leicester, Inglaterra; 19 de agosto de 1951)
+                                es un músico y compositor británico retirado, conocido por haber sido el bajista del
+                                grupo musical de rock Queen.</p>
+                            <div class="miembro-info">
+                                <p class="integrante">John Deacon</p>
+                                <p class="cargo">Bajista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Interprete 4 -->
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!--fin carousel con integrantes-->
+    </main>
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <div class="iconos-redes-sociales d-flex align-items-center justify-content-center">
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:nombre@correo.com" target="_blank">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-autor">Creado por Desarrollador Web (2022)</div>
+    </footer>
+    
+    <!--Segun la documentacion oficial-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
